@@ -13,6 +13,8 @@ function App() {
   return (
     <>
 
+      <h1>Hii!!! my name is Sandeepa Oraon</h1>
+
       <nav>
         <Link to='/' className='nav-link'>home</Link>
         <Link to='/projects' className='nav-link'>projects</Link>
