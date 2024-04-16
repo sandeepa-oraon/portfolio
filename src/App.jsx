@@ -39,11 +39,11 @@ function App() {
     </button>
     <div className=" navbar-m collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="nav-links navbar-nav">
-          <Link to='/' className={theme == 'light' ? "nav-link" : "navlink-dark"}>home</Link>
-          <Link to='/about' className={theme == 'light' ? "nav-link" : "navlink-dark"}>About</Link>
-          <Link to='/projects' className={theme == 'light' ? "nav-link" : "navlink-dark"}>projects</Link>
-          <Link to='/social' className={theme == 'light' ? "nav-link" : "navlink-dark"}>follow me</Link>
-          <Link to='/connect' className={theme == 'light' ? "nav-link" : "navlink-dark"}>lets talk!</Link>
+          <Link to='/' className={theme == 'light' ? "nav-link" : "navlink-dark"}><h5>home</h5></Link>
+          <Link to='/about' className={theme == 'light' ? "nav-link" : "navlink-dark"}><h5>About</h5></Link>
+          <Link to='/projects' className={theme == 'light' ? "nav-link" : "navlink-dark"}><h5>projects</h5></Link>
+          <Link to='/social' className={theme == 'light' ? "nav-link" : "navlink-dark"}><h5>follow me</h5></Link>
+          <Link to='/connect' className={theme == 'light' ? "nav-link" : "navlink-dark"}><h5>lets talk!</h5></Link>
       </div>
       <button className={theme == 'light' ? "theme": "theme-dark"} onClick={themeHandler}>
           {theme == "light" ? <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class=" theme " viewBox="0 0 16 16">
@@ -92,4 +92,3 @@ function App() {
 }
 
 export default App
-

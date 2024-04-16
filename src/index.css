@@ -26,7 +26,7 @@ body {
   padding-left: 0;
 }
 .navbar{
-  width: 700px;
+  width: 80vw;
   margin: 20px auto;
 }
 .toggler{
@@ -40,7 +40,7 @@ body {
   fill: rgb(255, 255, 255);
 }
 .navbar-m{
-  /* width: 700px; */
+  /* width: 80vw; */
   /* margin: 20px auto; */
   display: flex;
   gap:12px;
@@ -50,7 +50,7 @@ body {
 }
 
 /* .navbar-dark{
-  width: 700px;
+  width: 80vw;
   margin: 20px auto;
   display: flex;
   gap:16px;
@@ -98,18 +98,34 @@ body {
   color: rgb(255, 255, 255);
 }
 
+
+
+/* Home */
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
 .home-container{
-  width: 700px;
+  width: 70vw;
   margin: 60px auto;
 }
 
 .user{
-  height: 120px;
+  width: 350px;
+  background-color:unset;
+}
+.user-i{
+  width: 80%;
+  /* height: 80%; */
   border-radius: 50%;
 }
+.user-{
+  width: 650px;
+}
 .connect{
-  /* border: 1px solid #8b800b; */
-  /* background-color: #ffea04; */
   background-image: linear-gradient(to right, #f54b64, #F78361);
   border-radius: 16px;
   padding: 16px 28px;
@@ -161,3 +177,14 @@ body {
 }
 
 
+
+
+@media(max-width :1000px){
+.home{
+  display: block;
+}
+.user{
+  width: 200px;
+}
+
+}
